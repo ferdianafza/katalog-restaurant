@@ -43,7 +43,7 @@ nav {
   gap: 20px;
 }
 li,
-a {
+#hamburger {
   min-width: 44px;
   min-height: 44px;
   display: inline-block;
@@ -109,6 +109,9 @@ a {
 
 @media screen and (min-width: 769px) {
   .drawer-button {
+    display: none;
+  }
+  #hamburger {
     display: none;
   }
 }
